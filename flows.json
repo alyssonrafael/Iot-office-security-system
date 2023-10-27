@@ -1,0 +1,368 @@
+[
+    {
+        "id": "049d7cc0c04fade0",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bc3db75418cc6755",
+        "type": "ui_tab",
+        "name": "Porta do escritorio principal",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0658308094f05815",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "87378a3b4a2b04e3",
+        "type": "ui_group",
+        "name": "PORTA ESCRITORIO PRINCIPAL",
+        "tab": "193172278f01c83e",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "193172278f01c83e",
+        "type": "ui_tab",
+        "name": "ESP32",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "232fa88c166549ee",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "https://test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "28f9386c4971e3f3",
+        "type": "ui_link",
+        "name": "Link 3",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 3
+    },
+    {
+        "id": "1d6a31b8978e8ede",
+        "type": "ui_spacer",
+        "z": "049d7cc0c04fade0",
+        "name": "spacer",
+        "group": "87378a3b4a2b04e3",
+        "order": 2,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "1b4c108441cb6a2b",
+        "type": "ui_spacer",
+        "z": "049d7cc0c04fade0",
+        "name": "spacer",
+        "group": "87378a3b4a2b04e3",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "49c7035612e07098",
+        "type": "ui_spacer",
+        "z": "049d7cc0c04fade0",
+        "name": "spacer",
+        "group": "87378a3b4a2b04e3",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "1c283374481d7ddc",
+        "type": "ui_button",
+        "z": "049d7cc0c04fade0",
+        "name": "",
+        "group": "87378a3b4a2b04e3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Fechado",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "fechado",
+        "payloadType": "str",
+        "topic": "fechado",
+        "topicType": "msg",
+        "x": 120,
+        "y": 380,
+        "wires": [
+            [
+                "dc5d1badac2c9484",
+                "ef6cc7a862db55ca"
+            ]
+        ]
+    },
+    {
+        "id": "06af541b477f80b7",
+        "type": "ui_button",
+        "z": "049d7cc0c04fade0",
+        "name": "",
+        "group": "87378a3b4a2b04e3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Aberto",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "aberto",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "x": 110,
+        "y": 600,
+        "wires": [
+            [
+                "dc5d1badac2c9484",
+                "ef6cc7a862db55ca"
+            ]
+        ]
+    },
+    {
+        "id": "9713b879887119dd",
+        "type": "mqtt out",
+        "z": "049d7cc0c04fade0",
+        "name": "",
+        "topic": "/ThinkIOT/Servo-nodered",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "232fa88c166549ee",
+        "x": 870,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ef6cc7a862db55ca",
+        "type": "function",
+        "z": "049d7cc0c04fade0",
+        "name": "sates",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "9713b879887119dd"
+            ]
+        ]
+    },
+    {
+        "id": "dc5d1badac2c9484",
+        "type": "ui_switch",
+        "z": "049d7cc0c04fade0",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "87378a3b4a2b04e3",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "aberto",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "fechado",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 430,
+        "y": 480,
+        "wires": [
+            [
+                "ef6cc7a862db55ca",
+                "e2795091d9cd8927",
+                "6fb0b051279725d2"
+            ]
+        ]
+    },
+    {
+        "id": "e2795091d9cd8927",
+        "type": "ui_text",
+        "z": "049d7cc0c04fade0",
+        "group": "87378a3b4a2b04e3",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "ESTADO",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 560,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "6fb0b051279725d2",
+        "type": "ui_audio",
+        "z": "049d7cc0c04fade0",
+        "name": "",
+        "group": "87378a3b4a2b04e3",
+        "voice": "Microsoft Daniel - Portuguese (Brazil)",
+        "always": "",
+        "x": 580,
+        "y": 620,
+        "wires": []
+    }
+]
